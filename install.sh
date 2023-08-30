@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Configuration
-XCODE_TEMPLATE_DIR=$HOME'/Library/Developer/Xcode/Templates/File Templates/PlanNet Templates'
+XCODE_TEMPLATE_DIR=$HOME'/Library/Developer/Xcode/Templates/File Templates/Codefair Templates'
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Copy file templates into the local RIBs template directory
@@ -19,14 +19,7 @@ xcodeTemplate () {
 
 xcodeTemplate
 
-echo "==> Template files have been installed, select 'ScreenTemplate' from the 'New File...| PlanNet Templates' dialog in Xcode."
-
-
-
-
-
-
-
+echo "==> Template files have been installed, select 'ScreenTemplate' from the 'New File...| Codefair Templates' dialog in Xcode."
 
 # make special compartiment for custom templates
 #mkdir -p ~/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\ Templates/PlanNet\ Templates
