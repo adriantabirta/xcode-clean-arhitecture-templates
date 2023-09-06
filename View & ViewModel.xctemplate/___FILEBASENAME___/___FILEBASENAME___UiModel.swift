@@ -1,5 +1,5 @@
 //  ___FILEHEADER___
 
-struct ___FILEBASENAMEASIDENTIFIER___UiModel {
+struct ___FILEBASENAMEASIDENTIFIER___ {
 
 }
